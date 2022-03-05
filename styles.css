@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+html,
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100%;
+  width: 100%;
+
+  background-color: #fafafa;
+}
+
+.content {
+  border: 1px solid black;
+  background-color: white;
+
+  width: 40%;
+  height: 500px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo-content {
+}
+
+.form-content {
+}
+
+.input-text {
+}
+
+.submit-button {
+}
+
+.or-content {
+}
