@@ -2,20 +2,36 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="stylesheet" href="styles.css" />
+
+    <script src="script.js"></script>
     <title>Login</title>
   </head>
   <body>
     <div class="content">
       <div class="logo-content">
-        <h1>GitGram</h1>
+        <h1 class="logo-style">GitGram</h1>
       </div>
 
       <form class="form-content">
-        <input type="text" placeholder="Nome de usuário" class="input-text" />
-        <input type="password" placeholder="Senha" class="input-text" />
-        <button class="disabled submit-button">Entrar</button>
+        <input
+          type="text"
+          placeholder="Nome de usuário"
+          class="input-text"
+          name="username"
+        />
+        <input
+          type="password"
+          placeholder="Senha"
+          class="input-text"
+          name="password"
+        />
+        <button class="disabled submit-button" type="button" onclick="send()">
+          Entrar
+        </button>
       </form>
 
       <footer class="sign-in-content">
@@ -24,9 +40,8 @@
           <small>OU</small>
           <div class="line"></div>
         </div>
-
         <div class="sign-in">
-          <p>Não tem conta? <a href="register.html">Foda-se</a></p>
+          <p>Não tem uma conta? <a href="register.html">Cadastre-se</a></p>
         </div>
       </footer>
     </div>
