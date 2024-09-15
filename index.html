@@ -2,8 +2,50 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <script src="script.js"></script>
+    <title>Login</title>
   </head>
-  <body></body>
+  <body>
+    <div class="content">
+      <div class="logo-content">
+        <h1 class="logo-style">GitGram</h1>
+      </div>
+
+      <form class="form-content">
+        <input
+          type="text"
+          placeholder="Nome de usuário"
+          class="input-text"
+          name="username"
+          value="testetste"
+        />
+        <input
+          type="password"
+          placeholder="Senha"
+          class="input-text"
+          name="password"
+          value="testetste"
+        />
+        <button class="disabled submit-button" type="button" onclick="login()">
+          Entrar
+        </button>
+      </form>
+
+      <footer class="sign-in-content">
+        <div class="or-content">
+          <div class="line"></div>
+          <small>OU</small>
+          <div class="line"></div>
+        </div>
+        <div class="sign-in">
+          <p>Não tem uma conta? <a href="register.html">Cadastre-se</a></p>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
